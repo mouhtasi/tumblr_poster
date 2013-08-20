@@ -1,0 +1,6 @@
+consumer_key
+consumer_secret
+images/*
+user_secret
+user_token
+*.swp

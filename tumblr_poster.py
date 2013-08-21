@@ -78,7 +78,7 @@ if __name__ == '__main__':
 		consumer_key_file.close()
 	else:
 		print 'consumer_key file missing'
-		sys.exit(0)
+		sys.exit(1)
 
 	if os.path.exists('./consumer_secret'):
 		consumer_secret_file = open('./consumer_secret', 'r')
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 		consumer_secret_file.close()
 	else:
 		print 'consumer_secret file missing'
-		sys.exit(0)
+		sys.exit(1)
 
 	request_token_url = 'http://www.tumblr.com/oauth/request_token'
 	base_authorization_url = 'http://www.tumblr.com/oauth/authorize'

@@ -4,3 +4,4 @@ images/*
 user_secret
 user_token
 *.swp
+log.txt

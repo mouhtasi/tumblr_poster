@@ -9,6 +9,9 @@ Usage:
 
 	Register as an App with tumblr to get the client token and secret key. Save the client key in a file named 'consumer_key' and the secret as 'consumer_secret'.
 
+	Can be run as a cron job but it has to be running from the same directory as the script. An example:
+		0 0 * * * cd /home/user/poster; /usr/local/bin/python /home/user/poster/tumblr_poster.py ablog
+
 Dependencies:
 	requests (http://docs.python-requests.org/en/latest/)
 	requests_oauthlib (https://github.com/requests/requests-oauthlib)

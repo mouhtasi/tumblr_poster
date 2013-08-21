@@ -19,9 +19,9 @@ Can be run as a cron job but it has to be running from the same directory as the
 
 Dependencies:
 -------------
-|requests (http://docs.python-requests.org/en/latest/)
-|requests_oauthlib (https://github.com/requests/requests-oauthlib)
-|pytumblr (https://github.com/tumblr/pytumblr)
+| requests (http://docs.python-requests.org/en/latest/)
+| requests_oauthlib (https://github.com/requests/requests-oauthlib)
+| pytumblr (https://github.com/tumblr/pytumblr)
 
 License:
 --------
